@@ -26,16 +26,6 @@ These queries use window functions to compute running totals and moving averages
 - **Partitioned Running Total**: Resets for each month, useful for intra-month comparisons
 - **Moving Average Price**: Tracks average price trends over time using monthly partitions
 
----
-
- Data Preparation
-Before loading new data:
-
-- Tables are truncated to ensure clean inserts
-- Queries assume `order_date` is populated for accurate time-based analysis
-
----
 
 
-
-Let me know if you'd like this adapted for markdown, PDF, or embedded in a notebook.
+ 
